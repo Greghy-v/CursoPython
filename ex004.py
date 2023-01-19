@@ -1,0 +1,8 @@
+#faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informacoes possiveis (explorar o uso do .is)
+algo = (input('Digite uma informação: '))
+print('Tipo primitivo da sua informação:',type(algo))
+print('Sua informação é numérica?',algo.isnumeric())
+print('Sua informação é alfabética?',algo.isalpha())
+print('Sua informação é somente maiúscula?',algo.isupper())
+print('Sua informação é somente minúsculas?',algo.islower())
+print('Sua informação é alfanumérica?',algo.isalnum())
